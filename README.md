@@ -28,7 +28,7 @@ The program was executed using the mpirun launcher with 4 processes (-np 4).
 ``` bash
 mpirun -np 4 ./mpi_ring
 ```
-output:
+### Output:
 Process 3 received message from process 2. Message: "Hello from process 2!"
 Process 0 received message from process 3. Message: "Hello from process 3!"
 Process 1 received message from process 0. Message: "Hello from process 0!"
